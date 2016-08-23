@@ -1,1 +1,26 @@
-/* Pon tu código css aqui */
+.envoltura 	{
+	border: 1px solid black;
+}
+.envoltura:after {
+	content: "";
+	display:block;
+	clear:both;
+}
+
+.one 	{
+	background-color: #97FF26;
+}
+
+.two 	{
+	background-color: #A311FF;
+}
+
+.three 	{
+	background-color: #0FD6FF;
+}
+
+.x 	{
+	height:100px;
+	width:25%;
+	float:left;
+}
